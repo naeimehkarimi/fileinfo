@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'IRANYekan';
+    src: url('../fonts/IRANYekanWeb.woff') format('woff'), url('../fonts/IRANYekanWeb.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    direction: rtl;
+    font-family: IRANYekan!important;
+    font-size: 16px;
+    margin: 0;
+    overflow-x: hidden;
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px !important;
+    }
+}
+
+*:focus {
+    outline: 0 !important;
+}
+.input-element{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    
+}
+.input-element input{
+    box-shadow: none!important;
+    background-color: #fff!important;
+}
+.input-element input:focus{
+
+    background-color: #fff!important;
+}
+.box-shadow {
+    box-shadow: 0 0 5px #b1b1b1;
+}
+h2{
+    font-size: 1.2rem!important;
+}
+.info-table th{
+background-color:  #f1f2f3;
+}
